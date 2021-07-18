@@ -9,7 +9,8 @@ namespace CatanTesting
             Console.WriteLine("CATAN TEST 1.0 STARTED ! XDDD");
             Board b = new Board(); 
             System.Console.WriteLine("printing board");
-            b.printBoard(); 
+            //b.printBoard(); 
+            b.assignNeighbors(); 
         }
     }
 }
