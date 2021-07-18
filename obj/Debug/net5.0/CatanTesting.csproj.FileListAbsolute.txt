@@ -1,0 +1,16 @@
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\bin\Debug\net5.0\CatanTesting.exe
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\bin\Debug\net5.0\CatanTesting.deps.json
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\bin\Debug\net5.0\CatanTesting.runtimeconfig.json
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\bin\Debug\net5.0\CatanTesting.runtimeconfig.dev.json
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\bin\Debug\net5.0\CatanTesting.dll
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\bin\Debug\net5.0\ref\CatanTesting.dll
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\bin\Debug\net5.0\CatanTesting.pdb
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\CatanTesting.csproj.AssemblyReference.cache
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\CatanTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\CatanTesting.AssemblyInfoInputs.cache
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\CatanTesting.AssemblyInfo.cs
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\CatanTesting.csproj.CoreCompileInputs.cache
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\CatanTesting.dll
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\ref\CatanTesting.dll
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\CatanTesting.pdb
+C:\Users\jsa5664\Documents\Visual Studio Code\CatanTesting\obj\Debug\net5.0\CatanTesting.genruntimeconfig.cache

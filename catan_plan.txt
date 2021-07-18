@@ -1,0 +1,51 @@
+4 players(options: blue,white,red,orange,green)
+19 terrain hexes
+    4 field hexes
+    4 forest hexes
+    4 pasture hexes
+    3 mountain hexes
+    3 hills hexes
+    1 desert hex
+6 ports, 9 total harbors
+    port 1: one 2:1 wool harbor, one 3:1 generic
+    port 2: one 3:1 generic
+    port 3: one 2:1 brick, one 3:1 generic
+    port 4: one 2:1 lumber
+    port 5: one 2:1 grain, 3:1 generic
+    port 6: one 2:1 ore harbor
+18 circular number tokens
+    Two: x1
+    Three: x2
+    Four: x2
+    Five: x2
+    Six: x2
+    Seven: x2
+    Eight: x2
+    Nine: x2
+    Ten: x2
+    Eleven: x2
+    Twelve: x1
+95 resource cards (19 of each: wheat, stone, brick, sheep, wood)
+25 dev cards
+    14 knight cards
+    6 progress cards(2x Monopoly, 2x Road Building, 2x Year of Plenty)
+    5 victory point cards(Chapel, Library, Market, Palace, University)
+4 building cost cards (instructional, blue, white, red, orange)
+2 special cards (longest road, largest army)
+16 cities (4 of each color)
+20 settlements (5 of each color)
+60 roads (15 of each color)
+2 dice (1 yellow, 1 red)
+1 robber
+
+TILE OBJECT
+-resource
+-color
+-hasRobber
+-number
+
+BOARD OBJECT
+-array of tiles
+-place to put roads
+-place to put homes
+
