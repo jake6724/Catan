@@ -7,10 +7,15 @@ namespace CatanTesting
         static void Main(string[] args)
         {
             Console.WriteLine("CATAN TEST 1.0 STARTED ! XDDD");
-            Board b = new Board(); 
-            System.Console.WriteLine("printing board");
-            //b.printBoard(); 
-            b.assignNeighbors(); 
+            // Board b = new Board(); 
+            // System.Console.WriteLine("printing board");
+            // //b.printBoard(); 
+            // b.assignNeighbors(); 
+
+            Player p = new Player("Fart noise"); 
+            p.placeRoad(18, 0); 
+            
+
         }
     }
 }

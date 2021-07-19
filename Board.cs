@@ -93,7 +93,11 @@ namespace CatanTesting
                 System.Console.WriteLine("Tile Num: " + i + " Biome: " + currentTile.getBiome() + " Roll num: " + currentTile.getRollNum()); 
                 
             } 
-        }     
+        }  
+
+        public Tile[] getBoardList(){
+            return boardList; 
+        }
         
     }
 } 
