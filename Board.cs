@@ -1,4 +1,5 @@
 using System;
+using System.Text; 
 using System.Collections.Generic;
 
 
@@ -28,6 +29,7 @@ namespace CatanTesting
                     }
                 }
             }
+            assignNeighbors();
         }
         
         public void assignNeighbors(){
@@ -78,26 +80,76 @@ namespace CatanTesting
                 }
                 boardList[i].setNeighbors(temp);
             }
-            for(int i=0;i<19;i++){
-                System.Console.Write(i + ": ");
-                boardList[i].printNeighbors();
-            }
-            
-            
-            
+            // To print the neighbor matrix
+            // for(int i=0;i<19;i++){
+            //     System.Console.Write(i + ": ");
+            //     boardList[i].printNeighbors();
+            // }
         }
+
         public void printBoard(){
+            //printTileBiomes();
+            printTileEdges();
+            printTileVertices(); 
+        }
+
+        public void printTileBiomes(){
+            System.Console.WriteLine("Printing Tile Biome / Roll Info: ");
             for(int i=0; i < boardList.Length; i++){
                 Tile currentTile = boardList[i];
-                
                 System.Console.WriteLine("Tile Num: " + i + " Biome: " + currentTile.getBiome() + " Roll num: " + currentTile.getRollNum()); 
-                
             } 
-        }  
+        }
 
+        public void printTileEdges(){
+            System.Console.WriteLine("Print Board Tiles Edge Info: ");
+             for(int i=0; i < boardList.Length; i++){
+                Tile currentTile = boardList[i];
+                Road[] edges = currentTile.getEdges();
+                System.Console.Write("Tile " + i + ": " + "{");
+                
+                for(int j=0; j < 6; j++){
+                    //Check if last in iteration, just because we want the print statement to be pretty
+                    //From a young age my mother always told me it was important to be organized. I like to carry this with me with all that I do
+                    if(j == 5){
+                        if(edges[j] == null){System.Console.Write(edges[j]);}
+                        else{System.Console.Write("R");}
+                    }
+                    else{
+                        if(edges[j] == null){System.Console.Write(edges[j] + ", ");}
+                        else{System.Console.Write("R , ");} 
+                    }
+                }
+                System.Console.Write("}");  
+                System.Console.WriteLine();
+             }
+        }
+              
+        public void printTileVertices(){
+            System.Console.WriteLine("Print Board Tiles Vertex Info: ");
+            for(int i=0; i < boardList.Length; i++){
+                Tile currentTile = boardList[i];
+                Plot[] vertices = currentTile.getVertices();
+                System.Console.Write("Tile " + i + ": " + "{");
+                
+                for(int j=0; j < 6; j++){
+                    //Check if last in iteration, just because we want the print statement to be pretty
+                    //From a young age my mother always told me it was important to be organized. I like to carry this with me with all that I do
+                    if(j == 5){
+                        if(vertices[j] == null){System.Console.Write(vertices[j]);}
+                        else{System.Console.Write(vertices[j].getPlotType() + " , ");}
+                    }
+                    else{
+                        if(vertices[j] == null){System.Console.Write(vertices[j] + ", ");}
+                        else{System.Console.Write(vertices[j].getPlotType() + " , ");} 
+                    }
+                }
+                System.Console.Write("}");  
+                System.Console.WriteLine();
+            }
+        }
         public Tile[] getBoardList(){
             return boardList; 
         }
-        
-    }
+    }   
 } 
